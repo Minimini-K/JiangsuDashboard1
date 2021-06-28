@@ -2,17 +2,6 @@
 <html lang="en">
 <meta name="viewport" content="width = device-width, initial-scale=1.0">
 <head>
-    <!-- Hotjar Tracking Code for JiangsuDashboardNo3D -->
-<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:2445282,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Jiangsu Dashboard</title>
     <!--    <script type="text/javascript">response.addHeader("Access-Control-Allow-Origin", "http://129.187.45.33/");</script>-->
@@ -163,38 +152,38 @@
 
                 <!--                    <button class="button3D" style="padding:0px 5px;margin-top:8px;margin-left: 16px;height:40px;font-size: 28px">Industial Innovation Environment</button>-->
 
-                <p style="margin-left: 16px;margin-top: 12px;font-size: 28px;font-weight: bold; letter-spacing:0px;">
+                <p style="margin-left: 22px;margin-top: 12px;font-size: 28px;font-weight: bold; letter-spacing:0px;">
                     Industial Innovation Environment </p>
-                <p style="margin-left: 18px;margin-top: -10px;font-size: 15px; letter-spacing:0px;">
+                <p style="margin-left: 22px;margin-top: -8px;font-size: 15px; letter-spacing:0px;">
                     Data source: Jiangsu, China, 2018</p>
-                <p style="margin-left: 18px;margin-top: -10px;font-size: 15px; letter-spacing:0px;">
+                <p style="margin-left: 22px;margin-top: -10px;font-size: 15px; letter-spacing:0px;">
                     Provided by: Chair of Cartography, Technical University of Munich</p>
 
             </div>
         </div>
         <div class="col-md-2">
             <div style="font-weight:bold;height:104px;margin-left:-20px;background-color: #ffffff;border: 1px solid #DCDCDC;">
-                <p class="blockTitle">Category Selection</p>
+                <p class="blockTitle" style="height:18px;line-height: 10px;">Category Selection</p>
                 <div class="form-check" style="margin-top: -2px;margin-left: 10px">
                     <input class="form-check-input" type="radio" name="radios" id="radios1" value="enco" checked>
                     <label class="form-check-label" for="radios1"
-                           style="color:#696969;font-weight:bold;height: 25px;width: 90px">
+                           style="font-size: 15px;color:#696969;height: 25px;width: 85px">
                         Economy
                     </label>
                     <input class="form-check-input" type="radio" name="radios" id="radios2" value="soci">
                     <label class="form-check-label" for="radios2"
-                           style="color:#696969;font-weight:bold;">
+                           style="font-size: 15px;color:#696969;">
                         Inhabitance
                     </label>
                 </div>
                 <div class="form-check" style="margin-left: 10px">
                     <input class="form-check-input" type="radio" name="radios" id="radios3" value="envi">
                     <label class="form-check-label" for="radios3"
-                           style="color:#696969;font-weight:bold;">
+                           style="font-size: 15px;color:#696969;">
                         Infrastructure
                     </label>
                     <input class="form-check-input" type="radio" name="radios" id="radios4" value="tech">
-                    <label class="form-check-label" for="radios4" style="color:#696969;font-weight:bold;">
+                    <label class="form-check-label" for="radios4" style="font-size: 15px;color:#696969;">
                         R&D
                     </label>
                 </div>
@@ -202,7 +191,7 @@
         </div>
         <div class="col-md-5">
             <div style="font-weight:bold;height:104px;margin-left:-20px;background-color: #ffffff;border: 1px solid #DCDCDC;">
-                <p class="blockTitle">City Selection</p>
+                <p class="blockTitle" style="height:18px;line-height: 10px;">City Selection</p>
                 <div id="cityGroup">
                 </div>
             </div>
@@ -212,7 +201,7 @@
     <div class="row">
         <div class="col-md-5">
             <div style="height:595px;background-color: #ffffff;border: 1px solid #DCDCDC;font-weight: bold">
-                <p class="blockTitle">Industrial Innovation Environemnt Map</p>
+                <p class="blockTitle" style="height:18px;line-height: 10px;">Industrial Innovation Environemnt Map</p>
                 <div id='map' style="margin-left:10px;width: 95%;height:550px;"></div>
                 <img id="img2" src="" style="margin-left:10px;height: 130px;margin-top: -200px;">
             </div>
@@ -221,13 +210,13 @@
             <div class="row" style="margin-top:0px;margin-right: 0px;">
                 <div class="col-md-5">
                     <div style="margin-left:-20px;margin-right:30px;height:360px;background-color: #ffffff;border: 1px solid #DCDCDC;font-weight: bold">
-                        <p class="blockTitle">Value of <span id="cate1"></span> Factors in Jiangsu</p>
+                        <p class="blockTitle" style="height:18px;line-height: 10px;">Value of <span id="cate1"></span> Factors in Jiangsu</p>
                         <div id="valueGroup"></div>
                     </div>
                 </div>
                 <div class="col-md-7">
                     <div style="font-weight: bold;margin-left:-50px;margin-right:-15px;height:360px;background-color: #ffffff;border: 1px solid #DCDCDC;">
-                        <p class="blockTitle">Correlation of <span id="cate2"></span> Factors in Jiangsu</p>
+                        <p class="blockTitle" style="height:18px;line-height: 10px;">Correlation of <span id="cate2"></span> Factors in Jiangsu</p>
                         <div>
                             <img id="img1" src="">
                             <img src="data/legend.png" style="width:50px;height: 325px;">
@@ -238,7 +227,7 @@
             <div class="row" style="margin-top:10px;margin-right: 0px;">
                 <div class="col-md-12">
                     <div style="font-weight:bold;margin-left:-20px;margin-right:-20px;height:225px;background-color: #ffffff;border: 1px solid #DCDCDC;">
-                        <p class="blockTitle">Value of <span id="cate3"></span> Factors in Jiangsu Cities</p>
+                        <p class="blockTitle" style="height:18px;line-height: 10px;">Value of <span id="cate3"></span> Factors in Jiangsu Cities</p>
                         <div id="pc" class="parcoords" style="margin-top:5px;margin-left:10px;width:97%;height:185px">
 
                         </div>
