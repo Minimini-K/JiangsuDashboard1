@@ -32,7 +32,7 @@ function addCities(originalCities) {
     input1.type = "checkbox";
     input1.id = "all"
     createDiv1.style = "position: absolute; left:0px;top:30px";
-    label1.style = 'color:#696969;font-weight: bold;position: relative;top:2px;left:8px;'
+    label1.style = 'color:#696969;font-weight: normal;position: relative;top:2px;left:8px;'
     button1.style = 'position: relative;top:-20px;left: 25px;font-size:11px;height:19px'
     input1.style = 'position: relative;left:5px;top:2px;color:#696969;'
     document.getElementById('cityGroup').appendChild(createDiv1);
@@ -69,7 +69,7 @@ function addCities(originalCities) {
         input.name = 'city';
         input.type = "checkbox";
         createDiv.style = "position: absolute; left:" + ((i % 5) * 105).toString() + "px;top:" + (Math.floor(i / 5) * 23 + 30).toString() + "px";
-        label.style = 'color:#696969;font-weight: bold;position: absolute;top:1px;left: 20px;font-size:13px'
+        label.style = 'color:#696969;font-weight: normal;position: absolute;top:1px;left: 20px;font-size:13px'
         input.style = 'position: absolute;top:-1px;left:5px;color:#696969;'
         button.style = 'position: absolute;top:1px;left: 25px;font-size:11px;height:19px'
         // lable2.innerText = originalCities[i];
@@ -110,7 +110,7 @@ function updateValues(cate) {
             createDiv1.style = "border:1.5px solid  #C0C0C0;width:80%; height: 40px;position: absolute; left: 10px;top:" + (Math.floor(i * 54 + 45)).toString() + "px";
             //createDiv2.style = " border:1.5px solid  #C0C0C0;width:90%;height:40px;margin-top:10px;"
             //lable4.style = " font-size:12px;background: white;position: relative; top:-13px;left: 5px;color:#454545;font-weight:bold;"
-            lable4.style = " font-size:13px;background: white;position: relative; top:-13px;left: -2px;color:#696969;font-weight:bold;"
+            lable4.style = " font-size:14px;background: white;position: relative; top:-13px;left: -2px;color:#696969;font-weight:normal;"
             button.style = " font-size:12px;position: relative; top:-12px;left:-5px;font-weight:bold;height:20px"
             lable2.style = "font-size:18px;margin-top:-8px;margin-left:35%;font-weight:bold;color:#696969;"
             lable3.style = "font-size:13px;margin-top:-30px;margin-right:3px;color:#696969;text-align: right;"
@@ -791,10 +791,3 @@ function updateDashboard(cate) {
     // add correlation image
     addCorrImage(cate)
 }
-
-
-
-
-
-
-
