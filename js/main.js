@@ -107,7 +107,7 @@ function updateValues(cate) {
             lable4.id = "name1" + i.toString();
             button.id = "name" + i.toString() + "bt";
             button.className = "button3D namebt";
-            createDiv1.style = "border:1.5px solid  #C0C0C0;width:80%; height: 40px;position: absolute; left: 10px;top:" + (Math.floor(i * 54 + 45)).toString() + "px";
+            createDiv1.style = "border:1.5px solid  #C0C0C0;width:83%; height: 40px;position: absolute; left: 10px;top:" + (Math.floor(i * 54 + 45)).toString() + "px";
             //createDiv2.style = " border:1.5px solid  #C0C0C0;width:90%;height:40px;margin-top:10px;"
             //lable4.style = " font-size:12px;background: white;position: relative; top:-13px;left: 5px;color:#454545;font-weight:bold;"
             lable4.style = " font-size:14px;background: white;position: relative; top:-13px;left: -2px;color:#696969;font-weight:normal;"
@@ -224,13 +224,13 @@ function addCorrImage(cate) {
     image = document.getElementById('img1')
     image.src = 'data/' + cate + ".png"
     if (cate == "enco")
-        image.style = "width:70%;margin-left: 35px"
+        image.style = "width:85%;margin-left: 10px"
     else if (cate == "soci")
-        image.style = "width:73%;margin-left: 18px"
+        image.style = "width:87%;margin-left: 5px"
     else if (cate == "envi")
-        image.style = "width:73%;margin-left: 18px"
+        image.style = "width:87%;margin-left: 0px"
     else if (cate == "tech")
-        image.style = "width:73%;margin-left: 18px"
+        image.style = "width:87%;margin-left: 0px"
 }
 
 // ------------------------------Map Legend Image-----------------------------------------------
